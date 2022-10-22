@@ -1,0 +1,12 @@
+.TopNavBar {
+    height: 5vmin;
+    width: auto;
+    display: block;
+    color: #F5F5F5;
+}
+.TopNavBar.LanguageSwitch {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}

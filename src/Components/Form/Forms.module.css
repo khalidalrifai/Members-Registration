@@ -1,0 +1,28 @@
+.ShadowContainer {
+    border: solid 1px #555;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 1px 2px 9px rgba(0,0,0,0.6);
+    padding: 1em;
+    border-radius:10px;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    margin-top: 1vmax;
+    margin-bottom: 2vmax;
+    position: center;
+    alignment: center;
+}
+.submit-btn {
+    padding: 12px 0;
+    margin-top: 25px;
+}
+@media screen and (max-width: 991px) {
+    .form {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .form {
+        width: 90%;
+    }
+}
